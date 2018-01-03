@@ -12,7 +12,7 @@ body {
 
 /*index.html*/
 
-#logo {
+.logo {
   height: 5em; width: 100%;
   -webkit-align-items: center;
   background-color: white;
@@ -22,17 +22,17 @@ body {
   padding: 10px 0px 10px 0px;
 }
 
-#bar_con {
+.bar_con {
   position: sticky;
   top: 0px;
   width: 100%;
   display:flex;
-  padding: 0px;;
+  padding: 0px;
   background-color: rgb(48, 128, 193);
   align-items: center;
 }
 
-#mainbar {
+.mainbar {
   display: grid;
   width: 100%;
   align-self: center;
