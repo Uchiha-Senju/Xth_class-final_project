@@ -1,7 +1,27 @@
 <html>
  <head>
-  <title></title>
+  <title>About us</title>
+  <link rel="stylesheet" type="text/css" href="css/global.css">
+  <link rel="stylesheet" type="text/css" href="css/video_bg.css">
+  <style type="text/css">
+   #center-container {
+     color: white;
+	 font-family: sans-serif;
+     background-color: rgba(255,255,255,0.1);
+	 align-self: center;
+	 height: initial;
+	 text-align: center;
+	 vertical-align: middle;
+   }
+  </style>
  </head>
  <body>
+  <video autoplay muted loop id="bgvid">
+   <source src="media/about.mp4" type="video/mp4">
+  </video>
+  <div id="bgvid_cover"></div>
+  <div style="height:100%;"><div id="center-container">
+   Born from the rain-flooded streets of Kolkata, Elyssa is an enterprising new startup born to succeed.
+  </div></div>
  </body>
 </html>
