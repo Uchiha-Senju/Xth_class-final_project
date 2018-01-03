@@ -23,6 +23,8 @@ body {
 }
 
 #bar_con {
+  position: sticky;
+  top: 0px;
   width: 100%;
   display:flex;
   padding: 0px;;
@@ -41,8 +43,6 @@ body {
 }
 
 .mainbar_sub {
-  position: sticky;
-  top: 0px;
   height: 100%;
   border-radius: 15px;
   padding: 0.2em;
