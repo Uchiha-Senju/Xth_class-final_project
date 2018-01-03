@@ -1,0 +1,64 @@
+* {
+  padding : 0;
+  margin : 0;
+  align-self: center;
+}
+
+body {
+  background : white;
+  color : black;
+  align-items: center;
+}
+
+/*index.html*/
+
+#logo {
+  height: 5em; width: 100%;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 0px 10px 0px;
+}
+
+#bar_con {
+  width: 100%;
+  display:flex;
+  padding: 0px;;
+  background-color: rgb(48, 128, 193);
+  align-items: center;
+}
+
+#mainbar {
+  display: grid;
+  width: 100%;
+  align-self: center;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  background-color: rgb(48, 128, 193);
+}
+
+.mainbar_sub {
+  position: sticky;
+  top: 0px;
+  height: 100%;
+  border-radius: 15px;
+  padding: 0.2em;
+  background-color: inherit;
+  border: 0px;
+  outline: 0px;
+  cursor: pointer;
+  align-items: center; text-align: center; align-content: center; vertical-align: middle;
+  color: rgb(221,221,211);
+  font-family: 'Nova Flat', cursive, Calibri; 
+  font-size: 1.2em;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, padding 0.2s ease-out, letter-spacing 0.2s ease-out, font-size 0.2s ease-out;
+}
+
+.mainbar_sub:hover {background-color: rgb(41, 110, 165); padding: 0.3em; letter-spacing: 5px; font-size: 1.3em;}
+
+.mainbar_sub:active {background-color: rgb(54, 146, 219); padding: 0.4em; letter-spacing: 10px; font-size: 1.5em;}
