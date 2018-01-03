@@ -1,0 +1,33 @@
+#bgvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#bgvid_cover {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#center-container {
+  display: block;
+  position: absolute;
+  margin: 0px 10% 0px 10%;
+  background-color: rgb(245,245,245);
+  height: inherit;
+  width: 80%;
+  border-radius: 50px;
+}
+
+#title {
+  font-size: 3em;
+  text-align: center;
+  align-self: center;
+}
+sup { font-size: 0.5em;}
