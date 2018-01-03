@@ -4,11 +4,11 @@
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" type="text/css" href="css/nav-bar.css">
   <style type="text/css">
-   .bar_con { background-color:rgb(119, 119, 119);}
-   .mainbar { background-color:rgb(119, 119, 119);}
-   .mainbar_sub { background-color:inherit;}
-   .mainbar_sub:hover { background-color:rgb(107, 107, 107);}
-   .mainbar_sub:active { background-color:rgb(135, 135, 135);}
+   #footer-bar_con { background-color:rgb(119, 119, 119);}
+   #footer-mainbar { background-color:rgb(119, 119, 119);}
+   .footer-mainbar_sub { background-color:inherit;}
+   .footer-mainbar_sub:hover { background-color:rgb(107, 107, 107);}
+   .footer-mainbar_sub:active { background-color:rgb(135, 135, 135);}
    a { color: inherit; text-decoration: none;} a:visited{color:inherit;} a:hover{color: inherit;} a:active{color:inherit;}
   </style>
  </head>
@@ -17,23 +17,23 @@
    <hr id="footer_start">
    <div id="footer_main">
    </div>
-   <div class="bar_con"><div class="mainbar">
-   <button onclick='$("#content").load("home.html");' class="mainbar_sub">
+   <div class="bar_con" id="footer-bar_con"><div class="mainbar" id="footer-mainbar">
+   <button onclick='$("#content").load("home.html");' class="mainbar_sub footer-mainbar_sub">
     home
    </button>
-   <button onclick='$("#content").load("about-us.html");' class="mainbar_sub">
+   <button onclick='$("#content").load("about-us.html");' class="mainbar_sub footer-mainbar_sub">
     about us
    </button>
-   <button onclick='$("#content").load("mem.html");' class="mainbar_sub">
+   <button onclick='$("#content").load("mem.html");' class="mainbar_sub footer-mainbar_sub">
     RAM chips
    </button>
-   <button onclick='$("#content").load("scan.html");' class="mainbar_sub">
+   <button onclick='$("#content").load("scan.html");' class="mainbar_sub footer-mainbar_sub">
     scanners
    </button>
-   <button onclick='$("#content").load("print.html");' class="mainbar_sub">
+   <button onclick='$("#content").load("print.html");' class="mainbar_sub footer-mainbar_sub">
     printers
    </button>
-   <button onclick='$("#content").load("support.html");' class="mainbar_sub">
+   <button onclick='$("#content").load("support.html");' class="mainbar_sub footer-mainbar_sub">
     support
    </button>
   </div></div>
