@@ -1,5 +1,9 @@
 body {
   background-color: rgb(130, 218, 255);
+  color: black;
+  align-items: center;
+  padding: 0px; margin: 0px;
+  position: relative;
 }
 
 #center-container {
