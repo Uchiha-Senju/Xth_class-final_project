@@ -8,7 +8,6 @@ body {
 
 #center-container {
   display: block;
-  position: absolute;
   margin: 50px 10% 50px 10%;
   background-color: white;
   height: inherit;
