@@ -8,7 +8,7 @@ body {
 
 #center-container {
   display: block;
-  margin: 3rem 10% 3rem 10%;
+  margin: auto; margin-bottom: 3rem; margin-top: 3rem;
   background-color: white;
   height: inherit;
   width: 80%;
