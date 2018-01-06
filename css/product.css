@@ -24,7 +24,7 @@
   width: auto; height: auto;
   display: block;
   opacity: 1;
-  transition: .5s cubic-bezier(0.21, -0.4, 0.82, 1.4);
+  transition: .5s ease-in-out;
   backface-visibility: hidden;
   vertical-align:middle;
   position: absolute; z-index: 1;
