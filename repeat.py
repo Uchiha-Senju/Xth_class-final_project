@@ -1,5 +1,5 @@
 x = "     <div class=\"product-container\" onclick=\"window.open(\'\',\'_blank\')\">"
-y = "      <img src=\"media/ram/%s.png\" alt=\"%s\">"
+y = "      <img src=\"media/scan/%s\" alt=\"%s\">"
 c = "      <div class=\"product_description\">"
 a = "       <span class=\"price\">₹</span>"
 d = "      </div>"
