@@ -1,0 +1,13 @@
+input[type="text"],textarea {
+  width: 20rem; height: 2rem;
+  background-color:rgb(250,250,250);
+  border-radius: 0.3rem; border: 0rem rgb(150,150,150); border-bottom: 2px;
+  transition: 0.3s cubic-bezier(0.68, 0.67, 0.32, 1.28);
+}
+input[type="text"]:hover,textarea:hover{
+	width: 30rem;
+	background-color: rgb(230,230,230);
+}
+
+textarea{ height: 10rem;}
+textarea:hover{ height: 17rem;}
