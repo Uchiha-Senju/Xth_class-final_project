@@ -11,3 +11,18 @@ input[type="text"]:hover,textarea:hover{
 
 textarea{ height: 10rem;}
 textarea:hover{ height: 17rem;}
+
+input[type="submit"] {
+    background-color: rgb(76, 175, 80);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+	border: 0px; border-radius:0.3rem;
+	margin: 1rem auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+	transition: 0.2s ease-in-out;
+}
+input[type="submit"]:hover{ rgb(67, 160, 71);}
